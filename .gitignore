@@ -1,0 +1,27 @@
+curl https://api.mux.com/video/v1/uploads \
+  -X POST \
+  -d '{ "cors_origin": "*", "new_asset_settings": { "playback_policies": ["public"], "video_quality": "basic" } }' \
+  -H "Content-Type: application/json" \
+  -u ${MUX_TOKEN_ID}:${MUX_TOKEN_SECRET}
+
+tokenID: "0a1c4f28-e9fc-4889-adaa-492edb0c3d76"
+sk: "1XmzTtP1rC+ARzC9pjhEtCuZOjuf5wqrP1NdFWbzo9ktTEMhSHLuI6mYF8ZizkxiRykrXw4rOB1"
+<div class="background-holder">
+            <div class="video-holder">
+                <div class="video">
+                    <mux-background-video src="https://stream.mux.com/Vye65iYK8Hu02Gj02ZS02ggArbUAHjlInnpmJCoS7t02rTE.m3u8">
+                        <img src="https://image.mux.com/Vye65iYK8Hu02Gj02ZS02ggArbUAHjlInnpmJCoS7t02rTE/thumbnail.webp?time=0" alt="Mux Background Video" />
+                    </mux-background-video>
+                </div>
+                <div class="desciption">Oct 5, 2025 - 11:40:07: Raven Rocks</div>
+            </div>
+            <div class="video-holder">
+                <div class="video">
+                    <mux-background-video src="https://stream.mux.com/k02wuUg6NhwcRyf00TDvBacss5STSyK0000LDnODDWeOtlM.m3u8">
+                        <img src="https://image.mux.com/k02wuUg6NhwcRyf00TDvBacss5STSyK0000LDnODDWeOtlM/thumbnail.webp?time=0" alt="Mux Background Video" />
+                    </mux-background-video>
+                    
+                </div>
+            </div>
+            
+        </div>
