@@ -41,8 +41,11 @@ body::-webkit-scrollbar{
     
 }
 .nav-links a{
+    padding: 20px;
     color: black;
     text-decoration:none;
+    background-color: rgba(0, 255, 55, 0.2);
+    
 }
 .nav-links a:hover {
     color: #92db00;
@@ -52,13 +55,15 @@ body::-webkit-scrollbar{
     justify-content: center;
 }
 .logo {
+    background-color: white;
+    width: 100%;
     position: fixed;
-    top: 0;
-    top: 35px;
+    top: 40px;
     font-size: 60px;
     text-align: center;
     letter-spacing: 0.03em;
     font-weight: 200;
+    padding-bottom: 1vh;
 
 }
 .logo a{
@@ -93,6 +98,7 @@ body::-webkit-scrollbar{
     position: fixed;
     width: 100%;
     display: flex;
+    top: 0;
 
     overflow-x: auto;
 }
@@ -105,6 +111,9 @@ body::-webkit-scrollbar{
     overflow-x: auto;
 }
 .carousel::-webkit-scrollbar {
+    display: none;
+}
+.carousel-bottom::-webkit-scrollbar {
     display: none;
 }
 .title_card{
@@ -193,7 +202,7 @@ mux-background-video, img {
 }
 
 .video-holder{
-    margin-top: 120px;
+    margin-top: 13vh;
     display: flex;
     justify-content:center;
     align-items: center;
