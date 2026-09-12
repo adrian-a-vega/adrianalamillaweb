@@ -217,3 +217,11 @@ mux-background-video, img {
     display: flex;
     justify-content: center;
 }
+.inform {
+    display: flex;
+    position: fixed;
+    top: 60px;
+    height: fit-content;
+    width: 20%;
+    z-index: 1;
+}
